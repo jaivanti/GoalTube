@@ -44,7 +44,9 @@ Tools and technologies that you learnt and used in the project.
 >Steps to run your project once its setup. If you have an app or website, list how the user can go about using it.
 
 ## Applications
->How can your project do its part in solving a real-life problem? What are its possible applications? Describe here.
+* GoalTube's most important application is that it can be used by anyone. Because it is not at all paid and even YouTube courses are becoming more credible, it will undoubtedly benefit students who cannot afford paid courses from Udemy, Coursera, and others.
+* If it is published in collaboration with a government entity, the credibility of the certificate for courses will be enhanced even further, and the application can be made available to more schools and colleges.
+* We can also use the quiz to determine whether or not the user is watching the video. Furthermore, testing your knowledge is a way to gain confidence in that subject, and thus our application will motivate users to complete the courses.
 
 ## Future scope
 * Peer to peer quiz rounds after each video in a playlist - At the end of every video, the user will be asked to submit few questions along with their answer related to that video. This submitted quiz questions will be then shown to other users.

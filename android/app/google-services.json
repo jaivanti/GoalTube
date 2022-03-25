@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "820037585946",
+    "project_id": "edutube-55ae5",
+    "storage_bucket": "edutube-55ae5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820037585946:android:de9697d95b85740ab315a3",
+        "android_client_info": {
+          "package_name": "com.codingabby.goaltube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820037585946-jlujjkl0n4lecit31uhclek55p0glr3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codingabby.goaltube",
+            "certificate_hash": "90286b8fcffb2b4cab4b1d8e682d95ef56b78495"
+          }
+        },
+        {
+          "client_id": "820037585946-gt77l578gds7foj665uhuo6ao3nmp6qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbYXbUDTXNoOcZa1tRH1rXIaMLpAbQY90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820037585946-gt77l578gds7foj665uhuo6ao3nmp6qh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "820037585946-e56kqjsnte1rvs67u73eku2bahvnfo4h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.official.edutube"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820037585946:android:e695e208f2054991b315a3",
+        "android_client_info": {
+          "package_name": "com.official.edutube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820037585946-dvtag2agu1ae0nkn2mo2kbo2oen1om8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.official.edutube",
+            "certificate_hash": "20c379568fc1d611b2732bb95845c3ea78415f8f"
+          }
+        },
+        {
+          "client_id": "820037585946-hl40mjvad1rsmhhqq5inpcatoosh3kcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.official.edutube",
+            "certificate_hash": "140979c9c5bf249aff7db994ff2e29653e2f6811"
+          }
+        },
+        {
+          "client_id": "820037585946-i1h22fvmc3lghh584fr97setekkjhq56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.official.edutube",
+            "certificate_hash": "2b5533ca5d4c21e7970318b4707c215e7bb98cff"
+          }
+        },
+        {
+          "client_id": "820037585946-nud1uglaojjsgdpms1562g641i65agg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.official.edutube",
+            "certificate_hash": "38f808ae7b120baa73213e4cb8545e7ce9123af9"
+          }
+        },
+        {
+          "client_id": "820037585946-sbmp3ardessc9c5kpdsqu9tvm2tkt5dc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.official.edutube",
+            "certificate_hash": "028a1702ba53bf11a56f2227bf20922d1e20d355"
+          }
+        },
+        {
+          "client_id": "820037585946-gt77l578gds7foj665uhuo6ao3nmp6qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbYXbUDTXNoOcZa1tRH1rXIaMLpAbQY90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820037585946-gt77l578gds7foj665uhuo6ao3nmp6qh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "820037585946-e56kqjsnte1rvs67u73eku2bahvnfo4h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.official.edutube"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

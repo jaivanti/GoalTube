@@ -1,16 +1,56 @@
-# goaltube
+# GoalTube - AI platform to credible Youtube Tutorial Videos 
 
-Free Education for all
+### Team name: Coders.py
 
-## Getting Started
+## Team members
+* Vriddhi Gupta - vriddhigupta898@gmail.com
+* Abhay Ubhale - abhayubhale.30@gmail.com
+* Krishna Asher - krasher_b19@it.vjti.ac.in
+* Jaivanti Dhokey - jsdhokey_b18@pe.vjti.ac.in
+* Sarah Tisekar - sntisekar_b19@ce.vjti.ac.in
+* Vedika Mamidwar - vedikakmamidwar@gmail.com
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Description
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* Because technology is constantly being updated, YouTube serves as a platform for these updates to reach a large audience.
+* A lot of people can't afford paid courses on various Edtech platforms like Coursera, Udemy, etc.
+* Thus, learning through Youtube is the only way out. But, watching Youtube tutorials does not provide credibility to showcase as a criteria of employability. 
+* As a result, we created an interactive and user-friendly mobile application that will aid in the credibility of YouTube playlists.
+* GoalTube is an AI platform that provides credibility to learners across all backgrounds through our dynamic and customizable test who aim to educate themselves through platforms like YouTube.
+* The user can sign in with their Google account and add the YouTube playlist that they want to finish. The Playlist will not be added to the course list until it has been approved by the admin panel. Following each video, the user will be required to complete a quiz in which the questions are generated based on the subtitles extracted from the video. Users can also view and watch playlists uploaded by other users.
+* If a user believes that a question or answer is incorrect, they can report it to the admin panel, and the admin panel will investigate further.
+* If the user receives a certain number of passing points at the end of all videos and quizzes, they will be certified for that course.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Links
+* GitHub Repo link: [Link to repository](https://github.com/abby3010/GoalTube)
+* Live Project Link(optional): [Website link here](www.google.com)
+
+## Technology stack
+
+Tools and technologies that you learnt and used in the project.
+
+1. Dart
+2. Python
+3. Flutter
+4. Firebase
+5. Flask
+6. Pytorch
+
+## Project Setup
+>Include your project setup basics here. Steps for how someone else can setup your project on their machine. Add any relevant details as well.
+
+## Usage
+>Steps to run your project once its setup. If you have an app or website, list how the user can go about using it.
+
+## Applications
+>How can your project do its part in solving a real-life problem? What are its possible applications? Describe here.
+
+## Future scope
+>Peer to peer quiz rounds after each video in a playlist - At the end of every video, the user will be asked to submit few questions along with their answer related to that video. This submitted quiz questions will be then shown to other users.
+>Automate Admin panel -As the number of users grows, so will the number of playlist requests. As a result, we will implement an ML Model that will accept or deny requests based on the videos in the playlist, reducing manual work.
+
+## Screenshots
+Add a few screenshots for parts of the project completed till now to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
+
+![Screenshot alt text](https://img.freepik.com/free-photo/blue-purple-technology-circuit_73426-205.jpg "Here is a screenshot")

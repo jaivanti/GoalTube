@@ -18,7 +18,7 @@
 * Thus, learning through Youtube is the only way out. But, watching Youtube tutorials does not provide credibility to showcase as a criteria of employability. 
 * As a result, we created an interactive and user-friendly mobile application that will aid in the credibility of YouTube playlists.
 * GoalTube is an AI platform that provides credibility to learners across all backgrounds through our dynamic and customizable test who aim to educate themselves through platforms like YouTube.
-* The user can sign in with their Google account and add the YouTube playlist that they want to finish. The Playlist will not be added to the course list until it has been approved by the admin panel. Following videos, the user will be required to complete a quiz in which the questions are generated based on the subtitles extracted from the video. Users can also view and watch playlists uploaded by other users.
+* The user can sign in with their Google account and add the YouTube playlist that they want to finish. The Playlist will not be added to the course list until it has been approved by the admin panel. Following videos, the user will be required to complete a quiz in which the questions are generated based on the subtitles extracted from the video using NLP(Natural Language Processing). Users can also view and watch playlists uploaded by other users.
 * If a user believes that a question or answer is incorrect, they can report it to the admin panel, and the admin panel will investigate further.
 * If the user receives a certain number of passing points at the end of all videos and quizzes, they will be certified for that course.
 
@@ -38,7 +38,8 @@ Tools and technologies that you learnt and used in the project.
 6. Pytorch
 
 ## Project Setup
-> 
+* For this project, you will have to install latest version of Android studio and latest version of Flutter and then install Dart and Flutter plugin in Android Studio. The steps to so is:
+> Open Android studio -> Go to setting -> Plugins -> Seach dart and flutter -> Install and enable them -> Restart IDE.
 
 ## Usage
 * After setup on Android studio is done, you can connect your mobile device to your laptop via USB and then run the application on your mobile. The app will be installed and opened automatically.

@@ -75,8 +75,6 @@ Tools and technologies that you learnt and used in the project.
 
 
 | ![](Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-13-13-69_a226cad3b95b00e4795a4053ca203fbc.jpg) | ![](Screenshots%20-%20GoalTube/SS%201.png)| ![](Screenshot_2022-03-26-01-51-35-370_com.codingabby.goaltube.jpg)       | ![](Screenshot_2022-03-26-01-51-35-370_com.codingabby.goaltube.jpg)  | ![](Screenshots/Explanation.png)|  ![](Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-13-13-69_a226cad3b95b00e4795a4053ca203fbc.jpg) |
-| :-------------:  | :-------------: | :-------------:       | :-------------:  | 
-|  Course Page    |    Grid View of videos in the course       |  List View of videos in the course | All Courses     |
 
 
 - **Admin Panel**

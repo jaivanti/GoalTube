@@ -24,7 +24,7 @@
 
 ## Links
 * GitHub Repo link: [Link to repository](https://github.com/abby3010/GoalTube)
-* Admin Panel: [Website link here](https://goaltube-sih-hackathon.herokuapp.com)
+* Admin Panel: [Link to admin panel](https://goaltube-sih-hackathon.herokuapp.com)
 
 ## Technology stack
 
@@ -92,10 +92,6 @@ Tools and technologies that you learnt and used in the project.
  
 <img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-01-51-37-411_com.codingabby.goaltube.jpg" width="500">
 
-- **Playing YouTube video In-app**
- 
-<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-13-13-69_a226cad3b95b00e4795a4053ca203fbc.jpg" width="500">
-
 - **Admin Panel**
  
 <img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot%202022-03-26%20075129.png" width="1000">
@@ -105,4 +101,19 @@ Tools and technologies that you learnt and used in the project.
 <img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot%202022-03-26%20075259.png" width="1000">
 
 <img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot%202022-03-26%20075527.png" width="1000">
+
+- **Model that will extract the submitiles from the YouTube Video and generate subjetive questions**
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/ML_model_1.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/ML_Model_2.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/ML_Model_3.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/ML_Model_4.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/ML_Model_5.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/ML_Model_6.png" width="1000">
+
 

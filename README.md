@@ -60,6 +60,10 @@ Tools and technologies that you learnt and used in the project.
 * Automate Admin panel -As the number of users grows, so will the number of playlist requests. As a result, we will implement an ML Model that will accept or deny requests based on the videos in the playlist, reducing manual work.
 
 ## Screenshots
+- **Splash Screen**
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/WhatsApp%20Image%202022-03-26%20at%207.47.40%20AM.jpeg" width="500">
+
 - **HomePage**
  
 <img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-12-29-68_a226cad3b95b00e4795a4053ca203fbc.jpg" width="500">
@@ -78,7 +82,7 @@ Tools and technologies that you learnt and used in the project.
 
 - **Course Page**
  
-<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_1645944856.png" width="500">
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/SS%201.png" width="500">
 
 - **Grid View of videos in the course**
  

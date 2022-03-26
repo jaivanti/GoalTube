@@ -24,7 +24,7 @@
 
 ## Links
 * GitHub Repo link: [Link to repository](https://github.com/abby3010/GoalTube)
-* Live Project Link(optional): [Website link here](www.google.com)
+* Admin Panel: [Website link here](https://goaltube-sih-hackathon.herokuapp.com)
 
 ## Technology stack
 

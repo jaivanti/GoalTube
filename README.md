@@ -40,8 +40,7 @@ Tools and technologies that you learnt and used in the project.
 ## Project Setup
 * For this project, you will have to install latest version of Android studio and latest version of Flutter and then install Dart and Flutter plugin in Android Studio. The steps to so is:
   > Open Android studio -> Go to setting -> Plugins -> Seach dart and flutter -> Install and enable them -> Restart IDE.
-* Run the command flutter doctor in the terminal on Android studio to check if there are any issues. You may install the SDK command-line tool.
-* After that, you can either connect your phone to Android Studio or run the app on the emulator.
+* Run the command flutter doctor in the terminal on Android studio to check if there are any issues. You may install the SDK command-line tool. After that, you can either connect your phone to Android Studio or run the app on the emulator.
 
 ## Usage
 * After setup on Android studio is done, you can connect your mobile device to your laptop via USB and then run the application on your mobile. The app will be installed and opened automatically.

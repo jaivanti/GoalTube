@@ -18,7 +18,7 @@
 * Thus, learning through Youtube is the only way out. But, watching Youtube tutorials does not provide credibility to showcase as a criteria of employability. 
 * As a result, we created an interactive and user-friendly mobile application that will aid in the credibility of YouTube playlists.
 * GoalTube is an AI platform that provides credibility to learners across all backgrounds through our dynamic and customizable test who aim to educate themselves through platforms like YouTube.
-* The user can sign in with their Google account and add the YouTube playlist that they want to finish. The Playlist will not be added to the course list until it has been approved by the admin panel. Following each video, the user will be required to complete a quiz in which the questions are generated based on the subtitles extracted from the video. Users can also view and watch playlists uploaded by other users.
+* The user can sign in with their Google account and add the YouTube playlist that they want to finish. The Playlist will not be added to the course list until it has been approved by the admin panel. Following videos, the user will be required to complete a quiz in which the questions are generated based on the subtitles extracted from the video. Users can also view and watch playlists uploaded by other users.
 * If a user believes that a question or answer is incorrect, they can report it to the admin panel, and the admin panel will investigate further.
 * If the user receives a certain number of passing points at the end of all videos and quizzes, they will be certified for that course.
 
@@ -38,10 +38,15 @@ Tools and technologies that you learnt and used in the project.
 6. Pytorch
 
 ## Project Setup
->Include your project setup basics here. Steps for how someone else can setup your project on their machine. Add any relevant details as well.
+> 
 
 ## Usage
->Steps to run your project once its setup. If you have an app or website, list how the user can go about using it.
+> After setup on Android studio is done, you can connect your mobile device to your laptop via USB and then run the application on your mobile. The app will be installed and opened automatically.
+> When the app is finished, you will see a splash screen with beautiful animation displaying the app's name. After that, a series of animated screens will appear before you reach the login screen.
+> You can login using your google account which will read your profile name, email, phone and photo and store them in the database as user data. 
+> Once logged in, you will see multiple courses uploaded by other users on the home page, which you can complete or request the playlist of your choice.
+> When you click on the side drawer option on the app bar, you will see the option to "Add playlist", where you can enter the course name and YouTube playlist link before submitting the course to the admin panel for approval. You can view the course in the "My courses" option once it has been approved by the admin panel.
+> When you click view more on any course, you will be able to see the course's ratings as well as all of the videos in two different views: grid view and list view. You can watch the YouTube video in the app by clicking on the video thumbnail. After watching the videos, you can attempt the quiz and get a passing score to receive certificate.
 
 ## Applications
 * GoalTube's most important application is that it can be used by anyone. Because it is not at all paid and even YouTube courses are becoming more credible, it will undoubtedly benefit students who cannot afford paid courses from Udemy, Coursera, and others.
@@ -53,6 +58,5 @@ Tools and technologies that you learnt and used in the project.
 * Automate Admin panel -As the number of users grows, so will the number of playlist requests. As a result, we will implement an ML Model that will accept or deny requests based on the videos in the playlist, reducing manual work.
 
 ## Screenshots
-Add a few screenshots for parts of the project completed till now to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
 
 ![Screenshot alt text](https://img.freepik.com/free-photo/blue-purple-technology-circuit_73426-205.jpg "Here is a screenshot")

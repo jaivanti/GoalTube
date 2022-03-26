@@ -24,8 +24,9 @@
 
 ## Links
 * GitHub Repo link: [Link to repository](https://github.com/abby3010/GoalTube)
-* Admin Panel: [Link to admin panel](https://goaltube-sih-hackathon.herokuapp.com)
-* Admin Panel Github Repository: [with Flutter set in it](https://github.com/abby3010/GoalTube-Admin-Panel)
+* Admin Panel: [Website Link to admin panel](https://goaltube-sih-hackathon.herokuapp.com)
+* Admin Panel Github Repository(with Flutter set in it): [Admin Panel Code](https://github.com/abby3010/GoalTube-Admin-Panel)
+* ML Model for genearting questions: [ML Model code]()
 
 ## Technology stack
 
@@ -53,7 +54,7 @@ Tools and technologies that you learnt and used in the project.
 
 ## Flowchart
  
-<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/architecture.png" width="500">
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/architecture.png" width="1000">
 
 
 ## Applications

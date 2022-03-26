@@ -62,4 +62,6 @@ Tools and technologies that you learnt and used in the project.
 
 ## Screenshots
 
-![Screenshot alt text](https://img.freepik.com/free-photo/blue-purple-technology-circuit_73426-205.jpg "Here is a screenshot")
+![Screenshot alt text](https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-12-29-68_a226cad3b95b00e4795a4053ca203fbc.jpg "Homepage")
+
+![Screenshot alt text](https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-12-59-95_a226cad3b95b00e4795a4053ca203fbc.jpg "Ide Drawer")

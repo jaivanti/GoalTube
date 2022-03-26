@@ -24,7 +24,7 @@
 
 ## Links
 * GitHub Repo link: [Link to repository](https://github.com/abby3010/GoalTube)
-* Live Project Link(optional): [Website link here](www.google.com)
+* Admin Panel: [Website link here](https://goaltube-sih-hackathon.herokuapp.com)
 
 ## Technology stack
 
@@ -95,4 +95,14 @@ Tools and technologies that you learnt and used in the project.
 - **Playing YouTube video In-app**
  
 <img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-13-13-69_a226cad3b95b00e4795a4053ca203fbc.jpg" width="500">
+
+- **Admin Panel**
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot%202022-03-26%20075129.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot%202022-03-26%20075227.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot%202022-03-26%20075259.png" width="1000">
+
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot%202022-03-26%20075527.png" width="1000">
 

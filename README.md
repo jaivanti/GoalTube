@@ -78,7 +78,7 @@ Tools and technologies that you learnt and used in the project.
 
 - **Course Page**
  
-<img src="" width="500">
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_1645944856.png" width="500">
 
 - **Grid View of videos in the course**
  

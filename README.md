@@ -25,6 +25,7 @@
 ## Links
 * GitHub Repo link: [Link to repository](https://github.com/abby3010/GoalTube)
 * Admin Panel: [Link to admin panel](https://goaltube-sih-hackathon.herokuapp.com)
+* Admin Panel Github Repository: [with Flutter set in it](https://github.com/abby3010/GoalTube-Admin-Panel)
 
 ## Technology stack
 

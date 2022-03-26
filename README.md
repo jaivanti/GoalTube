@@ -50,6 +50,11 @@ Tools and technologies that you learnt and used in the project.
 * When you click on the side drawer option on the app bar, you will see the option to "Add playlist", where you can enter the course name and YouTube playlist link before submitting the course to the admin panel for approval. You can view the course in the "My courses" option once it has been approved by the admin panel.
 * When you click view more on any course, you will be able to see the course's ratings as well as all of the videos in two different views: grid view and list view. You can watch the YouTube video in the app by clicking on the video thumbnail. After watching the videos, you can attempt the quiz and get a passing score to receive certificate.
 
+## Flowchart
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/architecture.png" width="500">
+
+
 ## Applications
 * GoalTube's most important application is that it can be used by anyone. Because it is not at all paid and even YouTube courses are becoming more credible, it will undoubtedly benefit students who cannot afford paid courses from Udemy, Coursera, and others.
 * If it is published in collaboration with a government entity, the credibility of the certificate for courses will be enhanced even further, and the application can be made available to more schools and colleges.

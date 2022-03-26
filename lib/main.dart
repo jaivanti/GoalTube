@@ -26,18 +26,7 @@ import 'package:provider/provider.dart';
 void main() async {
   await FlutterDownloader.initialize();
   WidgetsFlutterBinding.ensureInitialized();
-  // WidgetsFlutterBinding.ensureInitialized();
-  if (Platform.isIOS) {
-    await Firebase.initializeApp(
-        options: FirebaseOptions(
-            apiKey: "AIzaSyCkK8zMbeW4nZ96a5fLAxeJVueJg2TYUz8",
-            appId: "1:820037585946:ios:9c0d0950aa2232cdb315a3",
-            messagingSenderId: "Your Sender id found in Firebase",
-            projectId: "edutube-55ae5"
-            ));
-  } else {
-    await Firebase.initializeApp();
-  }
+  await Firebase.initializeApp();
   await SystemChrome.setPreferredOrientations(<DeviceOrientation>[
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown
@@ -79,10 +68,10 @@ class MyApp extends StatelessWidget {
           "/onboard": (context) => OnboardingScreen(),
           "/profile": (context) => User_Profile(),
           "/myPlaylist": (context) => MyPlaylistView(),
-          "/allCourses" : (context) => AllCourses(),
+          "/allCourses": (context) => AllCourses(),
         },
         debugShowCheckedModeBanner: false,
-        title: 'EduTube',
+        title: 'GoalTube',
         theme: basicTheme(),
         home: AuthPage(),
       ),

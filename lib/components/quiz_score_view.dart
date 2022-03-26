@@ -17,7 +17,6 @@ import 'package:get/get.dart';
 import 'theme.dart';
 
 class QuizScoreView extends StatefulWidget {
-
   QuizScoreView({Key? key}) : super(key: key);
 
   @override
@@ -29,7 +28,7 @@ class _QuizScoreViewState extends State<QuizScoreView> {
 
   final pdf = pw.Document();
 
-String date = DateFormat("yyyy-MM-dd").format(DateTime.now());
+  String date = DateFormat("yyyy-MM-dd").format(DateTime.now());
 
   Future savePdf() async {
     Directory documentDirectory = await getApplicationDocumentsDirectory();
@@ -183,9 +182,7 @@ String date = DateFormat("yyyy-MM-dd").format(DateTime.now());
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
-                    child:Image.asset("assets/img/trophy.png")
-                  ),
+                  Container(child: Image.asset("assets/img/trophy.png")),
                   Spacer(
                     flex: 1,
                   ),
@@ -208,7 +205,7 @@ String date = DateFormat("yyyy-MM-dd").format(DateTime.now());
                     flex: 1,
                   ),
                   Padding(
-                    padding:EdgeInsets.only(left:20.0,right:20.0),
+                    padding: EdgeInsets.only(left: 20.0, right: 20.0),
                     child: Expanded(
                       child: Container(
                         height: 48,
@@ -219,8 +216,7 @@ String date = DateFormat("yyyy-MM-dd").format(DateTime.now());
                           ),
                           boxShadow: <BoxShadow>[
                             BoxShadow(
-                                color: CustomAppTheme
-                                    .nearlyYoutubeRed
+                                color: CustomAppTheme.nearlyYoutubeRed
                                     .withOpacity(0.5),
                                 offset: const Offset(1.1, 1.1),
                                 blurRadius: 10.0),
@@ -228,42 +224,39 @@ String date = DateFormat("yyyy-MM-dd").format(DateTime.now());
                         ),
                         child: Center(
                             child: TextButton(
-                              child: Text(
-                                'Get Certificate',
-                                textAlign: TextAlign.left,
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 18,
-                                  letterSpacing: 0.0,
-                                  color: CustomAppTheme.nearlyWhite,
-                                ),
-                              ),
-                              onPressed: () async{
-  
-writeOnPdf();
-                  await savePdf();
+                          child: Text(
+                            'Get Certificate',
+                            textAlign: TextAlign.left,
+                            style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                              letterSpacing: 0.0,
+                              color: CustomAppTheme.nearlyWhite,
+                            ),
+                          ),
+                          onPressed: () async {
+                            writeOnPdf();
+                            await savePdf();
 
-                  Directory documentDirectory =
-                      await getApplicationDocumentsDirectory();
+                            Directory documentDirectory =
+                                await getApplicationDocumentsDirectory();
 
-                  String documentPath = documentDirectory.path;
+                            String documentPath = documentDirectory.path;
 
-                  String fullPath = "$documentPath/example.pdf";
-                  print(fullPath);
-                   Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => PdfPreviewScreen(
-                                path: fullPath,
-                              )));
-                              },
-                            )),
+                            String fullPath = "$documentPath/example.pdf";
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => ShowCertificateScreen(
+                                          path: fullPath,
+                                        )));
+                          },
+                        )),
                       ),
                     ),
                   ),
-
                   Spacer(
-                    flex:1,
+                    flex: 1,
                   )
                 ],
               ),

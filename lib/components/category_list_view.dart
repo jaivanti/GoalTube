@@ -120,7 +120,7 @@ class CategoryView extends StatelessWidget {
                           Expanded(
                             child: Container(
                               decoration: BoxDecoration(
-                                color: Color(0xFFF8FAFB),
+                                color: Color(0xFFF0F0F0),
                                 borderRadius: const BorderRadius.all(
                                     Radius.circular(16.0)),
                               ),

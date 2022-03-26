@@ -42,7 +42,7 @@ class _SplashViewState extends State<SplashView> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
                   Text(
-                    "Edu",
+                    "Goal",
                     style:
                         TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                   ),

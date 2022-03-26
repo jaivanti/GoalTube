@@ -1,4 +1,3 @@
-
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, sized_box_for_whitespace
 import 'package:goaltube/basicTheme.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -21,7 +20,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   CategoryType categoryType = CategoryType.ui;
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  get user1=> _auth.currentUser;
+  get user1 => _auth.currentUser;
   @override
   Widget build(BuildContext context) {
     final user = Provider.of<FirebaseAuthService>(context).currentUser();
@@ -30,8 +29,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
-          title: Text("EduTube"),
-          brightness: Brightness.dark,
+          title: Text("GoalTube"),
         ),
         drawer: Drawer(
           child: ListView(
@@ -41,36 +39,36 @@ class _HomePageState extends State<HomePage> {
                 accountName: Text(user1!.displayName.toString()),
                 accountEmail: Text(user1!.email.toString()),
                 currentAccountPicture: user1.photoURL != null
-              ? ClipOval(
-            child: Material(
-              elevation: 2.0,
-              shadowColor: Colors.black,
-              color: Colors.grey.shade600,
-              child: Image.network(
-                user1.photoURL!,
-                width:60.0,
-                fit: BoxFit.fitHeight,
+                    ? ClipOval(
+                        child: Material(
+                          elevation: 2.0,
+                          shadowColor: Colors.black,
+                          color: Colors.grey.shade600,
+                          child: Image.network(
+                            user1.photoURL!,
+                            width: 60.0,
+                            fit: BoxFit.fitHeight,
+                          ),
+                        ),
+                      )
+                    : ClipOval(
+                        child: Material(
+                          // color: CustomColors.firebaseGrey.withOpacity(0.3),
+                          child: Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Icon(
+                              Icons.person,
+                              size: 60,
+                              color: Colors.grey.shade600,
+                            ),
+                          ),
+                        ),
+                      ),
               ),
-            ),
-          )
-              : ClipOval(
-            child: Material(
-              // color: CustomColors.firebaseGrey.withOpacity(0.3),
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Icon(
-                  Icons.person,
-                  size: 60,
-                  color: Colors.grey.shade600,
-                ),
-              ),
-            ),
-          ),
-          ),
               ListTile(
                 leading: Icon(Icons.account_circle_outlined),
                 title: Text(user1.displayName),
-                onTap: (){
+                onTap: () {
                   Navigator.pushNamed(context, '/profile');
                 },
               ),
@@ -80,36 +78,31 @@ class _HomePageState extends State<HomePage> {
                 title: Text("Home"),
               ),
               ListTile(
-                
-                leading: Icon(Icons.add_sharp),
-                title: Text("Add Playlist"),
-                onTap:(){
-                  Navigator.pushNamed(context, '/add');
-                }
-              ),
+                  leading: Icon(Icons.add_sharp),
+                  title: Text("Add Playlist"),
+                  onTap: () {
+                    Navigator.pushNamed(context, '/add');
+                  }),
               ListTile(
-                leading: Icon(Icons.featured_play_list_outlined),
-                title: Text("My Playlist"),
-                  onTap:(){
+                  leading: Icon(Icons.featured_play_list_outlined),
+                  title: Text("My Playlist"),
+                  onTap: () {
                     Navigator.pushNamed(context, '/myPlaylist');
-                  }
-              ),
+                  }),
               ListTile(
                   leading: Icon(Icons.featured_play_list_outlined),
                   title: Text("All courses"),
-                  onTap:(){
+                  onTap: () {
                     Navigator.pushNamed(context, '/allCourses');
-                  }
-              ),
+                  }),
               ListTile(
                 leading: Icon(Icons.account_box_outlined),
                 title: Text("About Us"),
               ),
               ListTile(
                 onTap: () {
-                Navigator.pushNamed(context, '/pdf_template');
+                  Navigator.pushNamed(context, '/pdf_template');
                 },
-                
                 leading: Icon(Icons.contact_support_outlined),
                 title: Text("Contact Us"),
               ),
@@ -296,76 +289,64 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget getSearchBarUI() {
-    return Padding(
-      padding: const EdgeInsets.only(top: 8.0, left: 18),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Container(
-            width: MediaQuery.of(context).size.width * 0.75,
-            height: 64,
-            child: Padding(
-              padding: const EdgeInsets.only(top: 8, bottom: 8),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Color(0xFFF8FAFB),
-                  borderRadius: const BorderRadius.only(
-                    bottomRight: Radius.circular(13.0),
-                    bottomLeft: Radius.circular(13.0),
-                    topLeft: Radius.circular(13.0),
-                    topRight: Radius.circular(13.0),
-                  ),
-                ),
-                child: Row(
-                  children: <Widget>[
-                    Expanded(
-                      child: Container(
-                        padding: const EdgeInsets.only(left: 16, right: 16),
-                        child: TextFormField(
-                          style: TextStyle(
-                            fontFamily: 'WorkSans',
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
-                            color: CustomAppTheme.nearlyYoutubeRed,
-                          ),
-                          keyboardType: TextInputType.text,
-                          decoration: InputDecoration(
-                            labelText: 'Search for course',
-                            border: InputBorder.none,
-                            helperStyle: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16,
-                              color: Color(0xFFB9BABC),
-                            ),
-                            labelStyle: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 16,
-                              letterSpacing: 0.2,
-                              color: Color(0xFFB9BABC),
-                            ),
-                          ),
-                          onEditingComplete: () {},
-                        ),
-                      ),
-                    ),
-                    SizedBox(
-                      width: 60,
-                      height: 60,
-                      child: Icon(
-                        Icons.search,
-                        color: Color(0xFFB9BABC),
-                      ),
-                    )
-                  ],
-                ),
-              ),
+    return Container(
+      margin: EdgeInsets.all(8),
+      width: MediaQuery.of(context).size.width,
+      height: 64,
+      child: Padding(
+        padding: const EdgeInsets.only(top: 8, bottom: 8),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Color(0xFFF0F0F0),
+            borderRadius: const BorderRadius.only(
+              bottomRight: Radius.circular(13.0),
+              bottomLeft: Radius.circular(13.0),
+              topLeft: Radius.circular(13.0),
+              topRight: Radius.circular(13.0),
             ),
           ),
-          const Expanded(
-            child: SizedBox(),
-          )
-        ],
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                child: Container(
+                  padding: const EdgeInsets.only(left: 16, right: 16),
+                  child: TextFormField(
+                    style: TextStyle(
+                      fontFamily: 'WorkSans',
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                      color: CustomAppTheme.nearlyYoutubeRed,
+                    ),
+                    keyboardType: TextInputType.text,
+                    decoration: InputDecoration(
+                      labelText: 'Search for course',
+                      border: InputBorder.none,
+                      helperStyle: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                        color: Colors.black54,
+                      ),
+                      labelStyle: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 16,
+                        letterSpacing: 0.2,
+                        color: Colors.black54,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                width: 60,
+                height: 60,
+                child: Icon(
+                  Icons.search,
+                  color: Colors.black54,
+                ),
+              )
+            ],
+          ),
+        ),
       ),
     );
   }

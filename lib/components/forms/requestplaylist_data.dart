@@ -176,6 +176,7 @@ class _PlaylistFormState extends State<PlaylistForm> {
                       "user_email": user?.email,
                       "uid": user?.uid,
                       "videos_data": youtubeData,
+                      "isApproved": false
                     };
 
                     await FirebaseFirestore.instance

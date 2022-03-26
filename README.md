@@ -61,7 +61,19 @@ Tools and technologies that you learnt and used in the project.
 * Automate Admin panel -As the number of users grows, so will the number of playlist requests. As a result, we will implement an ML Model that will accept or deny requests based on the videos in the playlist, reducing manual work.
 
 ## Screenshots
+- **HomePage**
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-12-29-68_a226cad3b95b00e4795a4053ca203fbc.jpg" width="500">
 
-![Screenshot alt text](https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-12-29-68_a226cad3b95b00e4795a4053ca203fbc.jpg "Homepage")
+- **Side Drawer**
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-12-59-95_a226cad3b95b00e4795a4053ca203fbc.jpg" width="500">
 
-![Screenshot alt text](https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-12-59-95_a226cad3b95b00e4795a4053ca203fbc.jpg "Ide Drawer")
+- **Adding Playlist**
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-13-04-96_a226cad3b95b00e4795a4053ca203fbc.jpg" width="500">
+
+- **All Courses**
+ 
+<img src="https://github.com/abby3010/GoalTube/blob/main/Screenshots%20-%20GoalTube/Screenshot_2022-03-26-07-13-13-69_a226cad3b95b00e4795a4053ca203fbc.jpg" width="500">
+
